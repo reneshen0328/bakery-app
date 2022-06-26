@@ -1,14 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import classes from "./MainNavbar.module.css"
+
 function MainNavbar() {
     return (
-        <header>
-            <div>Naturally Baked</div>
+        <header className={classes.header}>
+            <div className={classes.logo}>NB</div>
             <nav>
                 <ul>
                     <li>
+                        <a>
                         <Link to="/">All Bakery Items</Link>
+                        </a>
                     </li>
                     <li>
                         <Link to="/new-bakery-item">New Bakery Item</Link>
