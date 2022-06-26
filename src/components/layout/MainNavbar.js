@@ -18,7 +18,7 @@ function MainNavbar() {
                         <Link to="/new-bakery-item">New Bakery Item</Link>
                     </li>
                     <li>
-                        <Link to="/cake-bases">Cake Bases</Link>
+                        <Link to="/cakes">Cakes</Link>
                     </li>
                 </ul>
             </nav>

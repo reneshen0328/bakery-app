@@ -1,7 +1,11 @@
 import React from "react";
+import NewBakeryItemForm from "../components/bakeryItems/NewBakeryItemForm";
 
 function NewBakeryItemPage() {
-    return <div>New Bakery Item Page</div>;
+    return <section>
+        <h1>New Bakery Item Form</h1>
+        <NewBakeryItemForm />
+        </section>
 }
 
 export default NewBakeryItemPage;
