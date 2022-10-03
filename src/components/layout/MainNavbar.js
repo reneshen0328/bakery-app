@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import AuthNavbar from "./AuthNavbar"
 import classes from "./MainNavbar.module.css"
 
 function MainNavbar() {
@@ -20,6 +21,7 @@ function MainNavbar() {
                     <li>
                         <Link to="/cakes">Cakes</Link>
                     </li>
+                    <AuthNavbar />
                 </ul>
             </nav>
         </header>

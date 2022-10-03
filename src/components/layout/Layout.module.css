@@ -1,5 +1,11 @@
+.layout {
+  background-color: #1F1B24;
+  color: azure;
+}
+
 .main {
-    margin: 3rem auto;
+    margin: 3rem auto 0 auto;
+    padding: 2rem 0;
     width: 90%;
     max-width: 40rem;
   }
