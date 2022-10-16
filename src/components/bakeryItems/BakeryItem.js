@@ -14,10 +14,10 @@ function BakeryItem(props) {
                 <div className={classes.content}>
                     <h3>{props.title}</h3>
                     <h4>{props.category}</h4>
-                    <p>{props.description}</p>
+                    {/* <p>{props.description}</p> */}
                 </div>
                 <div className={classes.actions}>
-                    <button>Like</button>
+                    <button>Add To Cart</button>
                 </div>
             </Card>
         </li>

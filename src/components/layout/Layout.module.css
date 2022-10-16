@@ -1,11 +1,30 @@
 .layout {
-  background-color: #1F1B24;
+  font-family: Phantomsans, sans-serif;
+  background-image: url('../../images/Group 698.jpg');
   color: azure;
+  min-height: 100vh;
 }
 
 .main {
-    margin: 3rem auto 0 auto;
-    padding: 2rem 0;
-    width: 90%;
-    max-width: 40rem;
-  }
+  margin: 3rem auto 0 auto;
+  padding: 2rem 0;
+  width: 90%;
+  max-width: 85rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.arrowRight {
+  height: 9px;
+  width: 9px;
+  border: solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+}

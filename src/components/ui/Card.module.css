@@ -1,6 +1,11 @@
 .card {
-    background-color: white;
-    color: #282c34;
-    border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 650px;
+  background-color: #EFE9EA;
+  color: #282c34;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}

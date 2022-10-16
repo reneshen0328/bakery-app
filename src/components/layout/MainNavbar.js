@@ -7,7 +7,7 @@ import classes from "./MainNavbar.module.css"
 function MainNavbar() {
     return (
         <header className={classes.header}>
-            <div className={classes.logo}>NB</div>
+            <div className={classes.logo}><h1>NB</h1></div>
             <nav>
                 <ul>
                     <li>
@@ -21,7 +21,7 @@ function MainNavbar() {
                     <li>
                         <Link to="/cakes">Cakes</Link>
                     </li>
-                    <AuthNavbar />
+                    {/* <AuthNavbar /> */}
                 </ul>
             </nav>
         </header>
