@@ -12,16 +12,12 @@ function MainNavbar() {
                 <ul>
                     <li>
                         <a>
-                        <Link to="/">All Bakery Items</Link>
+                        <Link to="/all-bakery-items">All Bakery Items</Link>
                         </a>
                     </li>
                     <li>
                         <Link to="/new-bakery-item">New Bakery Item</Link>
                     </li>
-                    <li>
-                        <Link to="/cakes">Cakes</Link>
-                    </li>
-                    {/* <AuthNavbar /> */}
                 </ul>
             </nav>
         </header>

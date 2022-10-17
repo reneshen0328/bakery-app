@@ -3,7 +3,7 @@ import React from "react";
 import Card from "../ui/Card.js"
 import classes from './NewBakeryItemForm.module.css'
 
-function NewBakeryItemForm(props) {
+function NewBakeryItemForm() {
     return <Card>
         <form className={classes.form}>
             <div className={classes.control}>

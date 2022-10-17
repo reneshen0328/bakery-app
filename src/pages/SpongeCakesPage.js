@@ -1,7 +1,7 @@
 import React from "react";
 
-function MadeleinePage() {
-    return <div>Madeleine Page</div>;
+function SpongeCakesPage() {
+    return <div>Sponge Cakes</div>;
 }
 
-export default MadeleinePage;
+export default SpongeCakesPage;

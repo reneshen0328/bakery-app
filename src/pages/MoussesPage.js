@@ -1,7 +1,7 @@
 import React from "react";
 
-function TiramisuPage() {
-    return <div>Tiramisu Page</div>;
+function MoussesPage() {
+    return <div>Mousses</div>;
 }
 
-export default TiramisuPage;
+export default MoussesPage;

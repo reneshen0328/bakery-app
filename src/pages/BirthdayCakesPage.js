@@ -1,7 +1,7 @@
 import React from "react";
 
-function CakesPage() {
-    return <div>Cakes Page</div>;
+function BirthdayCakesPage() {
+    return <div>Birthday Cakes</div>;
 }
 
-export default CakesPage;
+export default BirthdayCakesPage;

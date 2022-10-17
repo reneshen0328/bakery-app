@@ -1,7 +1,9 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { withAuth0 } from '@auth0/auth0-react';
 
 import Layout from './components/layout/Layout.js';
+import ProtectedRoute from './auth0/ProtectedRoute.js';
 
 import AllBakeryItemsPage from './pages/AllBakeryItems.js';
 import BirthdayCakesPage from './pages/BirthdayCakesPage.js';
@@ -16,16 +18,16 @@ function App() {
     <Router>
       <Layout>
         <Switch>
-          <Route path='/' exact={true}><HomePage /></Route>
-          <Route path='/all-bakery-items' exact={true}><AllBakeryItemsPage /></Route>
-          <Route path='/new-bakery-item'><NewBakeryItemPage /></Route>
-          <Route path='/all-bakery-items/birthday-cakes'><BirthdayCakesPage /></Route>
-          <Route path='/all-bakery-items/mousses'><MoussesPage /></Route>
-          <Route path='/all-bakery-items/sponge-cakes'><SpongeCakesPage /></Route>
+          <Route path='/' exact component={HomePage} />
+          <Route path='/all-bakery-items' exact component={AllBakeryItemsPage} />
+          <Route path='/all-bakery-items/birthday-cakes' component={BirthdayCakesPage} />
+          <Route path='/all-bakery-items/mousses' component={MoussesPage} />
+          <Route path='/all-bakery-items/sponge-cakes' component={SpongeCakesPage} />
+          <ProtectedRoute path='/new-bakery-item' component={NewBakeryItemPage} />
         </Switch>
       </Layout>
     </Router>
   );
 }
 
-export default App;
+export default withAuth0(App);

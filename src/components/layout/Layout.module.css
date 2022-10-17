@@ -12,9 +12,56 @@
   max-width: 85rem;
 }
 
-.flex {
+.baselineFlex {
+  display: flex;
+  align-items: baseline;
+}
+
+.alignFlex {
   display: flex;
   align-items: center;
+}
+
+.centerFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.displayNone {
+  display: none;
+}
+
+.gradientH1 {
+  font-size: 51px;
+  background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 30px;
+}
+
+.marginTop {
+  margin-top: 60px;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.homePageContent {
+  margin-left: 40px;
+}
+
+.homePageContent h1 {
+  padding-bottom: 30px;
+}
+
+.homePageContent h2 {
+  margin: 0;
+  padding: 0;
 }
 
 .arrowRight {

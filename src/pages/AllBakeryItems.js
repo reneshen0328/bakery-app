@@ -71,7 +71,7 @@ const hardCodedData = [
 
 function AllBakeryItemsPage() {
     return <section>
-        <div className={classes.flex}>
+        <div className={classes.alignFlex}>
             <h1>All Bakery Items</h1>
             <i className={classes.arrowRight}></i>
             <i className={classes.arrowRight}></i>
