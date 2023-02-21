@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+# bakery-app
+An online bakery shop for the users to view baked goods. In this bakery, logged in shopoers are protected by Auth0 authentication.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+<p>This project is the extension Multiverse security project, which focus on connecting React front-end with a strong security and rest API design principles. I created bakery-app, Naturally Baked, to helps me practice:</p>
+<ul>
+  <li>Generate access token through Auth0</li>
+  <li>Connect React with Auth0</li>
+  <li>Practice rest API</li>
+  <li>Create security focus webapp</li>
+</ul>
 
-## Available Scripts
+## About bakery-app Naturally Baked
+### View bakery-app Naturally Baked without logging in
+<p><a href="http://localhost:3000/">Homepage</a>:</p>
+![bakery-app homepage 1](https://user-images.githubusercontent.com/80661503/220216901-8f4dcbce-41e0-4e87-b791-c878a24751af.png)
+![bakery-app homepage 2](https://user-images.githubusercontent.com/80661503/220216997-fb90090b-bf07-4369-9be1-1fe7aff472e4.png)
 
-In the project directory, you can run:
+<p>Redirected sign in and signup page:</p>
+![bakery-app sign in](https://user-images.githubusercontent.com/80661503/220217149-d7a1a9cf-56e2-4067-a7c6-e844ae42a21a.png)
+![bakery-app signup](https://user-images.githubusercontent.com/80661503/220217156-17fa7390-76c3-424e-86a2-a9fc33ef0fcd.png)
+![bakery-app signup permission](https://user-images.githubusercontent.com/80661503/220217164-74e3222a-40eb-4c4d-8b34-34fb64fc3261.png)
 
-### `npm start`
+### Logged in as Test
+<p>Homepage:</p>
+![bakery-app logged in home page](https://user-images.githubusercontent.com/80661503/220217292-42b3398b-f9e3-40df-a190-a66af58b36ad.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p>All items page:</p>
+![bakery-app all items page](https://user-images.githubusercontent.com/80661503/220217509-e553b36d-75b8-4ca4-aa2c-27c35c4d00c0.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p>New item form:</p>
+![bakery-app new item page](https://user-images.githubusercontent.com/80661503/220217529-c0fdb427-0789-4c3e-9bfe-d2ead20ba5b2.png)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
